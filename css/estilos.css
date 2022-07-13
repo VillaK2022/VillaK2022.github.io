@@ -266,14 +266,7 @@ nav ul li ul li a:hover{
 
 /*Elementos responsivos*/
 @media screen and (max-width: 720px){
-    body {
-        overflow: hidden;
-    }
-    *{
-        max-width: 100% !important;
-        
-        width: 100%;
-    }
+    
     .inicio__s input{
         display: none;
     }
@@ -334,6 +327,7 @@ nav ul li ul li a:hover{
 
 html{
     scroll-behavior: smooth;
+
 }
 body {
     font-family: 'Poppins', sans-serif;

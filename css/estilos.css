@@ -274,6 +274,7 @@ nav ul li ul li a:hover{
     *{
         max-width: 100% !important;
         overflow-x: none !important;
+        width: 100%;
     }
     .inicio__s input{
         display: none;

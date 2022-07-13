@@ -268,9 +268,7 @@ nav ul li ul li a:hover{
 
 /*Elementos responsivos*/
 @media screen and (max-width: 720px){
-    .sticky-element-placeholder.sticky-element-active {
-        width: 100% !important;
-    }
+    
     *{
         max-width: 100% !important;
         overflow-x: none !important;

@@ -236,7 +236,7 @@ nav ul li ul li a{
 }
 nav ul li ul li a:hover{
     background: #0BAEAC;
-    /* color: #fff; */
+    color: #fff;
     transform: scale(1.1);
     padding-left: 30px;
     font-size: 14px;

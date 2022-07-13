@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        width: 100%;
 }
 
 /* header{

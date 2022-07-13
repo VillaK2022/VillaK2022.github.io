@@ -58,7 +58,7 @@
 }
 
 .botones .boton:nth-child(2):hover .icono{
-    background: #00acee;
+    background: #0BAEAC;
     color: #fff;
 }
 
@@ -179,14 +179,14 @@ nav >ul > li >a{
 nav >ul > li >a:hover{ 
     transform: scale(1.1);
     background: #fff;
-    color: #339CFF;
+    color: #0BAEAC;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     
 }
 #selected{
     /* transform: scale(1.1); */
-    background-color: #339CFF;
-    color: #339CFF;
+    background-color: #0BAEAC;
+    color: #0BAEAC;
     /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); */
 }
 
@@ -225,7 +225,7 @@ nav ul li ul:before{
 }
 nav ul li ul li a{
     display: block;
-    color: #339CFF;
+    color: #0BAEAC;
     padding: 6px;
     padding-left: 14px;
     margin-top: 10px;
@@ -235,7 +235,7 @@ nav ul li ul li a{
     text-decoration: none;
 }
 nav ul li ul li a:hover{
-    background: #339CFF;
+    background: #0BAEAC;
     color: #fff;
     transform: scale(1.1);
     padding-left: 30px;
@@ -687,7 +687,7 @@ nav{
     text-decoration: none;
 }
 .menu-horizontal >li:hover{
-    background-color: #339CFF;
+    background-color: #0BAEAC;
     border: none;
 }
 .menu-vertical{
@@ -701,7 +701,7 @@ nav{
     display: block;
 }
 .menu-vertical li:hover{
-    background-color: #339CFF;
+    background-color: #0BAEAC;
     border: none;
 }
 .menu-vertical li a{
@@ -821,7 +821,7 @@ cursor: pointer;
 
 /* footer */
 .footer{
-    background-color: #339cff;
+    background-color: #0BAEAC;
 }
 .footer__title{
     font-weight: 700;

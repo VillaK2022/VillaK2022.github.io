@@ -100,14 +100,12 @@
 .header__superior{
     background: linear-gradient(315deg, #fff, #d7e1ec 75% );
     max-width: 1000px;
-    margin: 20px px ;
+    margin: 20px 0px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
     }
-    
-
 .logo img{
     width: 200px;
 }

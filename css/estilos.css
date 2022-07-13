@@ -58,7 +58,8 @@
 }
 
 .botones .boton:nth-child(2):hover .icono{
-    background: #0BAEAC;
+    background: linear-gradient(30deg, #3040e6 10%, #d41356, #e74f31, #f0ce6c);
+    
     color: #fff;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .botones .boton:nth-child(5):hover .icono{
-    background: linear-gradient(30deg, #3040e6 10%, #d41356, #e74f31, #f0ce6c);
+    background: #0BAEAC;
     color: #fff;
 }
 

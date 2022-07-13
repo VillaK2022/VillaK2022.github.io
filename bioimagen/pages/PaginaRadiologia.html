@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Radiología - Bioimagen C.A</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+	<link rel="stylesheet" href="../css/estilospagina.css">
+	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<script src="https://kit.fontawesome.com/9984ff46fa.js" crossorigin="anonymous"></script>
+</head>
+
+	<header>
+		<div class="header__superior">
+			<div class="logo">
+				<img src="../imagenes/BIO LOGO negro transparente.png ">
+			</div>
+			<div class="inicio__s">
+				<span>Correo Electronico: bioimagenca@gmail.com</span>
+			</div>
+		</div>
+
+
+		<div class="container__menu">
+			
+			<div class="menu">
+				<input type="checkbox" id="check__menu">
+				<label id="label__check" for="check__menu">
+					<i class="fa-solid fa-bars icon__menu"></i>
+				</label>
+					<nav id="nav__sup">
+						<ul>
+							<li><a href="../index.html" id="selected"></a></li>
+							<li>
+								<a href="nosotros.html">Nosotros</a>
+									<ul class="">
+										<li><a href="nosotros.html">¿Quienes Somos?</a></li>
+									</ul>
+							</li>
+							<li><a href="#">Servicios</a>
+								<ul >
+									<li><a href="PaginaResomMag.html">Resonancia Magnetica</a></li>
+									<li><a href="PaginaTomografiaCompu.html">Tomografia Computada</a></li>
+									<li><a href="PaginaEcografia.html">Ecografía</a></li>
+									<li><a href="PaginaDoopler.html">Doppler Vascular y Cardíaco</a></li>
+									<li><a href="PaginaMamografia.html">Mamografía</a></li>
+									<li><a href="PaginaDensitome.html">Densitometría Ósea</a></li>
+									<li><a href="PaginaNeurologia.html">Neurología</a></li>
+									<li><a href="PaginaRadiologia.html">Radiología</a></li>
+								</ul>
+							</li>
+							<li><a href="Examenes.html">Examenes</a></li>
+							<li><a href="../contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+			</div>
+		</div>
+	</header>
+
+	<body class="body_pg">	
+	<div class="contenedor">
+		<main class="contenido-principal">
+			<img src="../imagenes/Radiologia/radio1.jpg"  class="contenido-principal__imagen">
+			<div class="contenido-principal__contenedor">
+				<h1 class="contenido-principal__titulo">Radiología</h1>
+				<p class="contenido-principal__resumen">
+					La radiología es la especialidad médica, que se ocupa de generar imágenes del interior del cuerpo mediante diferentes 
+					agentes físicos (rayos X, ultrasonidos, campos magnéticos, entre otros) y de utilizar estas imágenes para el 
+					diagnóstico y, en menor medida, para el pronóstico y el tratamiento de las enfermedades.
+				</p>
+				<p class="contenido-principal__resumen">
+					La radiología debe distinguirse de la radioterapia, que no utiliza imágenes, sino que emplea directamente la radiación
+					ionizante (rayos X de mayor energía que los usados para el diagnóstico, y también radiaciones de otro tipo)
+					para el tratamiento de las enfermedades (por ejemplo, para detener o frenar el crecimiento de los tumores que son sensibles
+					a la radiación).
+				</p>
+			</div>
+		</main>
+
+		<div class="carousel">
+			<div class="carousel__contenedor">
+				<button aria-label="Anterior" class="carousel__anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel__lista">
+					<div class="carousel__elemento">
+						<img src="../imagenes/Radiologia/radio2.jpg" alt="Rock and Roll Hall of Fame">
+						
+					</div>
+					<div class="carousel__elemento">
+						<img src="../imagenes/Radiologia/radio3.jpg" alt="Constitution Square - Tower I">
+					
+					</div>
+					<div class="carousel__elemento">
+						<img src="../imagenes/Radiologia/radio4.jpg" alt="Empire State Building">
+						
+					</div>
+					<div class="carousel__elemento">
+						<img src="../imagenes/Radiologia/radio5.jpg" alt="Harmony Tower">
+					</div>
+					<div class="carousel__elemento">
+						<img src="../imagenes/Resonancia/resonancia6.jfif" alt="Empire State Building">
+					</div>
+					<div class="carousel__elemento">
+						<img src="../imagenes/Resonancia/resonancia7.jfif" alt="Harmony Tower">
+					</div>
+					<div class="carousel__elemento">	
+						<img src="../imagenes/Resonancia/resonancia8.jpg" alt="Empire State Building">
+					</div>
+					<div class="carousel__elemento">
+						<img src="../imagenes/Resonancia/resonancia9.jfif" alt="Harmony Tower">
+					</div>
+				</div>
+
+				<button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel__indicadores"></div>
+		</div>
+	</div>
+	
+	
+
+
+
+	<footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Bioimagen C.A</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="../index.html" class="nav__links"></a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="./nosotros.html" class="nav__links">Nosotros</a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="../contacto.html" class="nav__links">Contacto</a>
+                    </li>
+					<li class="nav__items">
+                        <a href="Examenes.html" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>   
+        </section>
+
+        <section class="botones">
+            <div class="boton">
+                <div class="icono"><i class="fa fa-facebook" aria-hidden="true"></i>  </div>
+                <span>Facebook</span>
+            </div>
+           
+            <div class="boton">
+                <div class="icono"><i class="fa fa-instagram" aria-hidden="true"></i>  </div>
+                <span>Instragram</span>
+            </div>
+        </section>
+        <section class="footer__copy container">
+            <h3 class="footer__copyright">Derechos reservados &copy: Compañia Prueba</h3>
+        </section>
+    </footer>
+	
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="../js/app.js"></script>
+	<script src="./js/slider.js"></script>
+	<script src="./js/preguntas.js"></script>
+	<script src="./js/menu.js"></script>
+	<script src="./js/contador.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+	</body>
+</html>

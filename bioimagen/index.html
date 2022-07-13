@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioimagen c.a</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./imagenes/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/9984ff46fa.js" crossorigin="anonymous"></script>
+    
+</head>
+    <header>
+        <div class="header__superior">
+            <div class="logo">
+                <img src="./imagenes/BIO LOGO negro transparente.png">
+            </div>
+            <div class="inicio__s">
+                <span>Correo Electronico: bioimagenca@gmail.com</span>
+            </div>
+        </div>
+
+
+        <div class="container__menu">
+            
+            <div class="menu">
+                <input type="checkbox" id="check__menu">
+                <label id="label__check" for="check__menu">
+                    <i class="fa-solid fa-bars icon__menu"></i>
+                </label>
+                    <nav id="nav__sup">
+                        <ul>
+                            <li><a href="./index.html" id="selected"></a></li>
+                            <li>
+                                <a href="pages/nosotros.html">Nosotros</a>
+                                    <ul class="">
+                                        <li><a href="./pages/nosotros.html">¿Quienes Somos?</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">Servicios</a>
+                                <ul >
+                                    <li><a href="pages/PaginaResomMag.html">Resonancia Magnetica</a></li>
+                                    <li><a href="pages/PaginaTomografiaCompu.html">Tomografia Computada</a></li>
+                                    <li><a href="pages/PaginaEcografia.html">Ecografía</a></li>
+                                    <li><a href="pages/PaginaDoopler.html">Doppler Vascular y Cardíaco</a></li>
+                                    <li><a href="pages/PaginaMamografia.html">Mamografía</a></li>
+                                    <li><a href="pages/PaginaDensitome.html">Densitometría Ósea</a></li>
+                                    <li><a href="pages/PaginaNeurologia.html">Neurología</a></li>
+                                    <li><a href="pages/PaginaRadiologia.html">Radiología</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="pages/Examenes.html">Examenes</a>
+                            </li>
+                            <li><a href="./contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+    </header>
+    
+    <body>
+
+    
+    <main >  
+        <section class="carusel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./imagenes/HomePagePromo_ondemand@4x.jpg" id="imagenescar" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./imagenes/doctora 2 recor.jpg" id="imagenescar" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/imagenologia banner.jpg" id="imagenescar" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section class="container about" id="contacto">
+            <h2 class="subtitle">¿Por qué elegir Centro de Imagenología?</h2>
+            <p class="about__paragraph">Brindamos servicios de imagenología de alta calidad para satisfacer las necesidades específicas de cada miembro de su familia.</p>
+            
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./imagenes/evento.png" class="about__icon">
+                    <h3 class="about_tittle">Reserva fácil</h3>
+                    <p class="about__paragraph">¡Reservar una cita es tan fácil como llamar!</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./imagenes/medalla.png" class="about__icon">
+                    <h3 class="about_tittle">Experiencia y calidad</h3>
+                    <p class="about__paragraph">Contamos con más de 20 años de experiencia bridando servicios de alta calidad</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./imagenes/dinero.png" class="about__icon">
+                    <h3 class="about_tittle">Mejor precio garantizado</h3>
+                    <p class="about__paragraph">Precios competitivos y atractivos paquetes con tiempos de entrega de resultados en un corto plazo</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./imagenes/administracion.png" class="about__icon">
+                    <h3 class="about_tittle">Convenios con empresas, escuelas, instituciones y público en general</h3>
+                    <p class="about__paragraph">Los servicios que ofrecemos se pueden integrar en paquetes especiales de acuerdo a sus necesidades y presupuestos</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">Equipo y tecnología</h2>
+                    <p class="knowledge_paragraph">– Equipo de Rayos X</p>
+                    <p class="knowledge_paragraph">– Equipo de Rayos X</p>
+                    <p class="knowledge_paragraph">– Radiología convencional</p>
+                    <p class="knowledge_paragraph">– Ultrasonido</p>
+                    <p class="knowledge_paragraph">– Ecógrafo</p>
+                    <p class="knowledge_paragraph">– Tomografo</p>
+                    <p class="knowledge_paragraph">– RMN- Resonancia magnética</p>
+                    <p class="knowledge_paragraph">– Medicina nuclear</p>
+                    <p class="knowledge_paragraph">– Angiografo</p>
+                    <p class="knowledge_paragraph">– Estudios vasculares (sistema arterial y venoso) avanzados con contraste</p>
+                    <a href="#" class="cta">Ve todo los servicios que podemos ofrecerte</a>
+                </div>
+                <figure class="knowledge__picture">
+                    <img src="./imagenes/WhatsApp Image 2022-06-08 at 3.34.59 PM.jpeg" alt="./imagenes/WhatsApp Image 2022-06-08 at 3.34.59 PM.jpeg" class="knowledge__img">
+                </figure>
+            </div>
+        </section> -->
+
+        <!-- <section class="price container">
+
+                <h2 class="subtitle">Todo sobre nosotros</h2>
+                <div class="price__table">
+                    <div class="price__element">
+                        <h3 class="price__price">misión</h3>
+                       
+                        
+                        
+                        <div class="price__items">
+                            <p class="price__features">Proveer soluciones en teleradiologia y educación médica continua en imagenes</p>
+                        </div>
+                        <a href="#" class="price__cta">Empieza ahora</a>
+                    </div>
+
+                    <div class="price__element price__element--best">
+                        <h3 class="price__price">Visión</h3>
+                        
+                        
+                        <div class="price__items">
+                            <p class="price__features">Ser el referente en soluciones de teleradiologia en Venezuela</p>
+                        </div>
+                        
+                        <a href="#" class="price__cta">Empieza ahora</a>
+                    </div>  
+
+                    <div class="price__element ">
+                        <h3 class="price__price">Objetivos</h3>
+                        <p class="price__name">Animaciones</p>
+                        
+                        
+                        <div class="price__items">
+                            <p class="price__features">Convertirnos en los líderes de teleradiologia en el país.</p>
+                        </div>
+                            
+                            <a href="#" class="price__cta">Empieza ahora</a>
+                    </div>   
+
+                </div>
+
+        </section> -->
+
+        <!-- <section class="testimonio">
+            <div class="testimonio__container container">
+                    <img src="./imagenes/flechaizq.svg" class="testimonio__arrow" id="before" >
+                    <img src="./imagenes/flechadere.svg" class="testimonio__arrow" id="next" >
+                    <section class="testimonio__body testimonio__body--show" data-id="1">
+                        <div class="testimonio__texts">
+                            <h2 class="subtitle">Mi nombre es Jordan Alexander, <span            class="testimonio__course">Especialista en radiologias</span></h2>
+                            <p class="testimonio__review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium molestiae quod necessitatibus, delectus explicabo ex dolorem maiores similique laboriosam asperiores nihil voluptatem consequuntur eum eius fuga nesciunt odio officiis. Debitis!</p>
+                        </div>
+
+                        <figure class="testimonio__picture">
+                            <img src="./imagenes/cara 1.jpg" class="testimonio__img">
+                        </figure>
+                    </section>
+
+                    <section class="testimonio__body " data-id="2">
+                        <div class="testimonio__texts">
+                            <h2 class="subtitle">Mi nombre es Maria Perez, <span 
+                            class="testimonio__course">Especialista en radiologias</span> </h2>
+                            <p class="testimonio__review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium molestiae quod necessitatibus</p>
+                        </div>
+
+                        <figure class="testimonio__picture">
+                            <img src="./imagenes/cara 2.jpg" class="testimonio__img">
+                        </figure>
+                    </section>
+
+                    <section class="testimonio__body " data-id="3">
+                        <div class="testimonio__texts">
+                            <h2 class="subtitle">Mi nombre es Jimmy Fermin, <span 
+                            class="testimonio__course">Especialista en radiologias</span> </h2>
+                            <p class="testimonio__review">Lorem ipsum dolor sit </p>
+                        </div>
+
+                        <figure class="testimonio__picture">
+                            <img src="./imagenes/cara 3.jpg" class="testimonio__img">
+                        </figure>
+                    </section> 
+
+
+
+            </div>
+        </section> -->
+
+        <!-- <section class="preguntas container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="preguntas_paragrah">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ex consequuntur iusto neque!</p>
+
+                <section class="preguntas__container">
+                        <article class="preguntas__padding">
+                            <div class="preguntas__answer">
+                                <h3 class="preguntas__title">¿Que es imageneologia?
+                                    <span class="preguntas__arrow">
+                                        <img src="./imagenes/flechaarriba.svg" class="preguntas__img">
+                                    </span>
+                                </h3>
+                                <p class="preguntas__show">Es una rama de la medicina que utiliza la tecnología imagenológica para diagnosticar y tratar una enfermedad. Se puede dividir en dos áreas diferentes: radiología diagnóstica y radiología intervencionista. Los médicos que se especializan en radiología se denominan radiólogos.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="preguntas__padding">
+                            <div class="preguntas__answer">
+                                <h3 class="preguntas__title">¿En qué horario trabaja el Departamento de Imagenología?
+                                    <span class="preguntas__arrow">
+                                        <img src="./imagenes/flechaarriba.svg" class="preguntas__img">
+                                    </span>
+                                </h3>
+                                <p class="preguntas__show">Nuestro horario de atención es de Lunes - Viernes 08:00 AM  a 5:30 PM
+ 
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="preguntas__padding">
+                            <div class="preguntas__answer">
+                                <h3 class="preguntas__title">¿Cuál es la diferencia entre radiología e imagenología?
+                                    <span class="preguntas__arrow">
+                                        <img src="./imagenes/flechaarriba.svg" class="preguntas__img">
+                                    </span>
+                                </h3>
+                                <p class="preguntas__show">La radiología es una rama de la medicina que utiliza la tecnología imagenológica para diagnosticar y tratar una enfermedad. Se puede dividir en dos áreas diferentes: radiología diagnóstica y radiología intervencionista. Los médicos que se especializan en radiología se denominan radiólogos.
+                                </p>
+                            </div>
+                        </article>
+                </section>
+
+                <section class="preguntas__offer">
+                    <h2 class="subtitle">estas listo???</h2>
+                    <p class="preguntas__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolor perferendis magni.</p>
+                    <a href="#" class="cta">Aprende ahora</a>
+                </section>
+        </section> -->
+       
+        <!-- <section class="contadores_principal">
+            <div class="contador ocultar">
+                <i class="fa fa-code fa-5x"></i>
+                <div class="contador_cantidad" data-cantidad-total="2850">0</div>
+                <h2>Clientes Felices</h2>
+            </div>
+            <div class="contador ocultar">
+                <i class="fa fa-facebook-square fa-5x"></i>
+                <div class="contador_cantidad"data-cantidad-total="50000">0</div>
+                <h2>Me gusta</h2>
+            </div>
+            <div class="contador ocultar">
+                <i class="fa fa-youtube fa-5x"></i>
+                <div class="contador_cantidad"data-cantidad-total="35000">0</div>
+                <h2>Suscriptores</h2>
+            </div>
+            <div class="contador ocultar">
+                <i class="fa fa-twitter fa-5x"></i>
+                <div class="contador_cantidad"data-cantidad-total="19350">0</div>
+                <h2>Seguidores</h2>
+            </div>
+        </section> -->
+        
+        <!-- <section class="mapa">
+            <h3>Nuestra Ubicación</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1024365028684!2d-72.22839465012993!3d7.778962409426527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e666c9a5e7cbb75%3A0xbd8021642c2b7745!2sCentro%20Cl%C3%ADnico%20San%20Crist%C3%B3bal!5e0!3m2!1ses!2sve!4v1654815987351!5m2!1ses!2sve" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> -->
+
+        
+    </main>
+
+    
+    <footer class="footer">
+        <section class="footer__container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Bioimagen C.A</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="./index.html" class="nav__links"></a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="pages/nosotros.html" class="nav__links">Nosotros</a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="contacto.html" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="pages/Examenes.html" class="nav__links">Examenes</a>
+                    </li>
+                </ul>
+            </nav>   
+        </section>
+
+        <section class="botones">
+            <div class="boton">
+            <a href="https://www.facebook.com/Bioimagen-CA-102262619219679">
+                <div class="icono"><i class="fa fa-facebook" aria-hidden="true"></i>  </div>
+                <span>Facebook</span>
+            </a>
+            </div>
+            <div class="boton">
+            <a href="https://www.instagram.com/p/CR0UthVruAa/?igshid=MDJmNzVkMjY%3D">
+                <div class="icono"><i class="fa fa-instagram" aria-hidden="true"></i>  </div>
+                <span>Instragram</span>
+            </a>
+            </div>
+        </section>
+        <section class="footer__copy container">
+            <h3 class="footer__copyright">Derechos reservados &copy: Bioimagen C.A.</h3>
+        </section>
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/preguntas.js"></script>
+<script src="./js/menu.js"></script>
+<script src="./js/contador.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- <script src="./js/carga.js"></script> -->
+</script>
+    </body>
+</html>
+

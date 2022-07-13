@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
-
-__d("LSBitFlag.bs",["bs_caml","bs_caml_int64","bs_int64"],(function(a,b,c,d,e,f){"use strict";function a(a,c){return b("bs_caml").i64_eq(b("bs_caml_int64").and_(c,a),a)}function c(a,c){return b("bs_caml_int64").or_(c,a)}function d(a,c){return b("bs_caml_int64").and_(c,b("bs_int64").lognot(a))}e=b("bs_caml_int64").zero;f.empty=e;f.has=a;f.set=c;f.clear=d}),null);

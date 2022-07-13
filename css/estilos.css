@@ -332,10 +332,7 @@ nav ul li ul li a:hover{
 }
 /* Scroll dinamico*/
 
-html{
-    scroll-behavior: smooth;
-    
-}
+
 body {
     font-family: 'Poppins', sans-serif;
 }

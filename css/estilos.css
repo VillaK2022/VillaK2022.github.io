@@ -271,6 +271,10 @@ nav ul li ul li a:hover{
     .sticky-element-placeholder.sticky-element-active {
         width: 100% !important;
     }
+    *{
+        max-width: 100% !important;
+        overflow-x: none !important;
+    }
     .inicio__s input{
         display: none;
     }

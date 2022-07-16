@@ -266,7 +266,7 @@ nav ul li ul li a:hover{
 /*Elementos responsivos*/
 @media screen and (max-width: 720px){
     
-    .inicio__s {
+    .inicio__s span{
         display: none;
     }
     .header__superior{

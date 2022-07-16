@@ -957,7 +957,7 @@ cursor: pointer;
     }
     .footer__container{
         flex-wrap:wrap ;
-        height: 0;
+        height: 170px;
     }
     .nav--footer{
         width: 100%;
@@ -1016,11 +1016,11 @@ cursor: pointer;
         font-size: 1rem;
     }
     .footer__title{
-        justify-self: start;
-        margin: 15px;
+        margin-bottom: 15px;
+        text-align: center;
     }
     .nav--footer{
-        padding-bottom:  60px ;
+        padding-bottom:  0px ;
     }
     .nav__link--footer{
         justify-content: space-between;

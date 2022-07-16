@@ -886,6 +886,9 @@ cursor: pointer;
 }
 /* media queries */
 @media (max-width:800px){
+    .inicio__s span{
+        display: none;
+    }
     .nav__menu{
     display: block;
     }
@@ -974,6 +977,9 @@ cursor: pointer;
     }
 }
 @media (max-width:600px){
+    .inicio__s span{
+        display: none;
+    }
     .hero__title{
         font-size: 2rem;
     }

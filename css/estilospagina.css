@@ -93,6 +93,9 @@
 .carousel__lista {
 	overflow: hidden;
 }
+.link1{
+	color: #D39999;
+}
 
 .carousel__elemento img {
 	text-align: center;
